@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Unseen</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Unseen</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+
+	<!-- Camera Permission - Required for AR -->
+	<key>NSCameraUsageDescription</key>
+	<string>Unseen needs camera access to reveal what lurks in the shadows through augmented reality.</string>
+
+	<!-- Photo Library Permissions - For saving captured photos -->
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Unseen needs photo library access to save your captured moments of horror.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Unseen needs permission to save photos to your gallery.</string>
+
+	<!-- Location Permission - For location-based hunts -->
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Unseen needs your location to guide you through the hunt and reveal nearby horrors.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Unseen needs your location to guide you through the hunt and reveal nearby horrors.</string>
+
+	<!-- Microphone Permission - For future audio features -->
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Unseen may need microphone access for immersive audio experiences.</string>
+
+	<!-- ARKit requirement -->
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+		<string>arkit</string>
+	</array>
+
+	<!-- Supported orientations - Portrait only for immersive experience -->
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,72 @@
+name: unseen
+description: "Unseen - A horror-themed AR scavenger hunt where you will wish you hadn't seen."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Icons
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.0
+  shimmer: ^3.0.0
+
+  # Navigation
+  go_router: ^14.6.2
+
+  # State Management
+  provider: ^6.1.2
+
+  # Firebase
+  firebase_core: ^3.8.1
+  firebase_auth: ^5.3.4
+  cloud_firestore: ^5.6.0
+  firebase_storage: ^12.4.0
+
+  # AR - temporarily disabled due to AGP 8+ compatibility issues
+  # ar_flutter_plugin: ^0.7.3
+  vector_math: ^2.1.4
+
+  # Location
+  geolocator: ^13.0.2
+
+  # Camera & Photos
+  camera: ^0.11.0+2
+  screenshot: ^3.0.0
+  image_gallery_saver: ^2.0.3
+  share_plus: ^10.1.4
+  photo_manager: ^3.5.0
+  permission_handler: ^11.3.1
+
+  # Audio & Haptics
+  audioplayers: ^6.1.0
+  vibration: ^2.0.1
+
+  # Utils
+  uuid: ^4.5.1
+  intl: ^0.19.0
+  cached_network_image: ^3.4.1
+  device_info_plus: ^11.2.0
+
+  # QR Code Scanner & Generator
+  mobile_scanner: ^5.2.3
+  qr_flutter: ^4.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/stickers/
+    - assets/models/
+    - assets/audio/
