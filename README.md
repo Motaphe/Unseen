@@ -8,6 +8,11 @@ A horror-themed AR scavenger hunt mobile application where players scan QR codes
 
 Unseen is an Android mobile app that combines QR code scanning, camera integration, and horror storytelling to create an immersive scavenger hunt experience. Players scan QR codes placed around physical locations to reveal creepy narrative fragments and capture photos with horror-themed AR stickers.
 
+## Links
+
+- **Presentation**: [Unseen Horror AR Scavenger Hunt](https://gamma.app/docs/Unseen-Horror-AR-Scavenger-Hunt-4ih6k7mvvackjtl)
+- **Video**: [YouTube Demo](https://youtu.be/MDGvMu4c9G4)
+
 ## Architecture
 
 For detailed architecture documentation including system diagrams, data models, service layer design, state management patterns, and technical workflows, see [ARCHITECTURE.md](ARCHITECTURE.md).

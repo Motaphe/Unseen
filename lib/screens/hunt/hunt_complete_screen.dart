@@ -494,7 +494,6 @@ class _EvidenceCard extends StatelessWidget {
                         ),
                       ),
                     ),
-            ),
           ),
           Padding(
             padding: const EdgeInsets.all(8),
