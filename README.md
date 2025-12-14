@@ -11,7 +11,7 @@ Unseen is an Android mobile app that combines QR code scanning, camera integrati
 ## Links
 
 - **Presentation**: [Unseen Horror AR Scavenger Hunt](https://gamma.app/docs/Unseen-Horror-AR-Scavenger-Hunt-4ih6k7mvvackjtl)
-- **Video**: [YouTube Demo](https://youtu.be/MDGvMu4c9G4)
+- **Video**: [YouTube Demo](https://youtu.be/F6Vzkt50wwo)
 
 ## Architecture
 
